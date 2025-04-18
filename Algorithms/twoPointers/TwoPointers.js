@@ -34,3 +34,17 @@ function palinDromeChecker(string) {
 }
 
 console.log(palinDromeChecker("nitin"));
+
+function removeElement(arr, removeNo) {
+  let left = 0;
+  let right = arr.length - 1;
+  for (let nums of arr) {
+    if (nums === removeNo) {
+      arr[left] = arr[right];
+      left++;
+    }
+    right--;
+  }
+  return arr;
+}
+console.log(removeElement([1, 2, 3, 4, 5, 6, 7], 6));
