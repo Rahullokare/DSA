@@ -14,3 +14,5 @@ function duplicatesInArray(arr) {
   return false;
 }
 console.log(duplicatesInArray([1, 2, 2, 4, 5]));
+// Map(4) { 1 => 1, 2 => 2, 4 => 1, 5 => 1 }
+// true

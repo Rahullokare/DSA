@@ -16,3 +16,4 @@ function findFirstNonRepeatingCharacter(string) {
 }
 
 console.log(findFirstNonRepeatingCharacter("RRRAAhul"));
+// h
